@@ -1,5 +1,0 @@
-# MCP Example File
-
-Created via GitHub MCP client at 2025-06-26T21:29:38.006092
-
-This demonstrates the MCP client working with the device-config-backup repository.
