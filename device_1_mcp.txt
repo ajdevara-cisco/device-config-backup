@@ -1,0 +1,30 @@
+# Device 1 MCP Configuration
+# Generated on: 2025-06-27T15:56:46.565853
+# Timestamp: 20250627_155642
+
+device_name: device-1-mcp
+device_type: cisco_router
+management_ip: 192.168.1.100
+interfaces:
+  - name: GigabitEthernet0/0
+    ip: 10.1.1.1
+    mask: 255.255.255.0
+    status: up
+  - name: GigabitEthernet0/1
+    ip: 10.1.2.1
+    mask: 255.255.255.0
+    status: up
+
+backup_config:
+  last_backup: 2025-06-27T15:56:46.565879
+  config_hash: abc123def456
+  size_bytes: 2048
+  
+mcp_integration:
+  enabled: true
+  server_url: http://localhost:8000
+  tools_used:
+    - create_or_update_file
+    - create_pull_request
+    - merge_pull_request
+  workflow_id: 20250627_155642
