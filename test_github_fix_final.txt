@@ -1,0 +1,3 @@
+This is a test file to verify GitHub MCP proxy response handling is working correctly.
+Timestamp: 2025-06-29 11:15:00
+Test: github.py response parsing fix
