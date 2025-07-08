@@ -1,0 +1,6 @@
+devices:
+  - name: "Pod3-Edge1"
+    type: "Switch"
+    ip_address: "10.201.40.56"
+    ntp_server: "200.1.1.10"
+    logging_server: "200.1.1.11"
