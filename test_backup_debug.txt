@@ -1,3 +1,0 @@
-# Test Configuration Backup
-hostname test-device
-version 15.1
